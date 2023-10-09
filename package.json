@@ -8,20 +8,20 @@
 		"url": "https://github.com/mjljm/effect-helmet"
 	},
 	"dependencies": {
-		"@effect/data": "^0.18.5",
-		"@effect/io": "0.40.3",
-		"@effect/platform": "0.16.1"
+		"@effect/data": "^0.18.7",
+		"@effect/io": "0.41.2",
+		"@effect/platform": "0.20.0"
 	},
 	"devDependencies": {
-		"@types/node": "20.6.0",
-		"@typescript-eslint/eslint-plugin": "^6.7.0",
-		"@typescript-eslint/parser": "^6.7.0",
-		"@vitest/ui": "^0.34.4",
-		"eslint": "^8.49.0",
+		"@types/node": "20.8.3",
+		"@typescript-eslint/eslint-plugin": "^6.7.4",
+		"@typescript-eslint/parser": "^6.7.4",
+		"@vitest/ui": "^0.34.6",
+		"eslint": "^8.51.0",
 		"eslint-config-prettier": "^9.0.0",
 		"prettier": "^3.0.3",
 		"typescript": "^5.2.2",
-		"vitest": "^0.34.4"
+		"vitest": "^0.34.6"
 	},
 	"type": "module",
 	"exports": {

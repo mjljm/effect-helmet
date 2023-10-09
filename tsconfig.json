@@ -1,32 +1,5 @@
 {
-	"compilerOptions": {
-		// Typescript
-		"skipLibCheck": true,
-		"noErrorTruncation": true,
-		"lib": ["ESNext"],
+	"extends": "../../tsconfig-base-library.json",
 
-		// Imports
-		// NodeNext allows files in a package to import other files of the same package by
-		// packagename/file according to the import rule defined in package.json
-		"moduleResolution": "NodeNext",
-		"module": "NodeNext", // Don't need it but TS complains if not set when moduleResolution = "NodeNext"
-		"resolveJsonModule": true,
-
-		// Linting
-		"strict": true,
-		"forceConsistentCasingInFileNames": true,
-		"noImplicitReturns": false,
-		"noUnusedLocals": true,
-		"noUnusedParameters": false,
-		"noFallthroughCasesInSwitch": true,
-		"noImplicitAny": true,
-		"noImplicitThis": true,
-		"noUncheckedIndexedAccess": true,
-		"strictNullChecks": true,
-		"isolatedModules": true, // Useful for Vite but a good idea anyway
-		// Emission
-		"useDefineForClassFields": true, // Useful for Vite,
-		"esModuleInterop": true
-	},
-	"include": ["src/"]
+	"include": ["*.ts", "./src/**/*.ts"]
 }
